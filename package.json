@@ -1,0 +1,29 @@
+{
+  "name": "liquidlauncher",
+  "version": "1.0.0",
+  "description": "A Beginner Friendly MC Launcher",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build-dist": "npm run build-macos && npm run build-win",
+    "build-macos": "",
+    "build-win": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LimeGradient-LLC/LiquidLauncher.git"
+  },
+  "author": "LimeGradient",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LimeGradient-LLC/LiquidLauncher/issues"
+  },
+  "homepage": "https://github.com/LimeGradient-LLC/LiquidLauncher#readme",
+  "dependencies": {
+    "electron": "^29.1.3",
+    "minecraft-launcher-core": "^3.18.1",
+    "msmc": "^5.0.4"
+  }
+}
